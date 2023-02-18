@@ -8,8 +8,10 @@ function App() {
       <main>
         <h1>Featured Products</h1>
         <div className="products">
-          {/* map here to prevent the error "Each child in a list should have a unique "key" prop" */}
-          {data.products.map((product) => (
+          {data.products.map((
+            product /*it uses a map() function to loop through an array of products stored in data object*/,
+          ) => (
+            /*it is important to include a `key` attribute when rendering a list of items, as it allows React to effeciently update the DOM when items are added, removed, or rearranged*/
             <div className="product" key={product.slug}>
               <a href={`/product/${product.slug}`}>
                 <img src={product.image} alt={product.name}></img>

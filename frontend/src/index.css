@@ -24,8 +24,8 @@ main {
 
 .products {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap; /*it allows items to wrap onto multiple lines when necessary*/
+  justify-content: center; /*it is used to align and distribute flex items along the main axis of a flex container*/
 }
 
 .product {
@@ -34,10 +34,16 @@ main {
 }
 
 .product img {
-  width: 100%;
-  max-width: 400px;
+  width: 100%; /*the ratio width of each image in the frame*/
+
+  /*if the container is narrower than 300px, then it will adjust its width to 
+  fit the content. But if the content is wider than 300pixels, then the container will
+  not expand 300 pixels.
+  */
+  max-width: 300px;
 }
 
+/**/
 .product-info {
   padding: 1rem;
 }
