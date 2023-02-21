@@ -16,3 +16,9 @@ then cd to the folder, npm start. npm start is a command that is used to start a
 cd folder_name
 npm start
 ```
+
+## Adding routing
+
+1. npm i react-router-dom
+2. create route for home screen
+3. create router for product screen
