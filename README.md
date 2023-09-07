@@ -45,3 +45,30 @@ rather than hardcoding the full URL (`http://localhost:5050/api/data`)
 1. define reducer
 2. update fetch data
 3. get state from useReducer
+
+# Add Bootstrap UI Framework
+1. npm install react-bootstrap bootstrap
+2. npm install react-router-bootstrap
+3. update App.js
+
+
+# Create Product Details Screen
+1. fetch product from backend
+2. create 3 columns for image, info, and action.
+3. npm install react-helmet-async
+
+# Create Loading and Message Component:
+1. Create loading component
+2. use spinner component
+3. create message component
+4. create utils.js to define getError function
+
+# Create React Context for Add Item to Cart
+1. Create React Context
+2. Define Reducer
+3. Create Store Provider
+4. Implement add to cart button click handler
+
+# Complete Add to cart:
+1. check exist item in the cart
+2. check count in store in backend
